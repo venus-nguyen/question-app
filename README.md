@@ -53,7 +53,7 @@ python manage.py runserver
 ```
 
 ### Access
-Open: http://127.0.0.1:8000/polls/
-Admin: http://127.0.0.1:8000/admin/
+* Open: http://127.0.0.1:8000/polls/
+* Admin: http://127.0.0.1:8000/admin/
 
 
