@@ -23,9 +23,9 @@
         Latest Questions
     </h2>
 
-    {% if latest_question_list %}
+    {% if lastest_question_list %}
         <ul class="space-y-4">
-            {% for question in latest_question_list %}
+            {% for question in lastest_question_list %}
                 <li class="p-4 bg-gray-50 rounded-xl shadow hover:bg-blue-50 transition">
                     <a href="{% url 'polls:detail' question.id %}" 
                        class="text-lg font-medium text-gray-800 hover:text-blue-600">
